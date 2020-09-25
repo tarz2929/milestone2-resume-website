@@ -8,7 +8,6 @@ function Sidebar() {
             <div class="sidenav">
             <h1 id=""><a href="index.html">Tarun Mulle</a></h1>
             <span className="email"><i className="icon-mail"></i> tarun.mulle@ualberta.ca</span>
-                <a href="#about">About</a>
                 <a href="#Introduction">Introduction</a>
                 <a href="#About">About</a>
                 <a href="#Timeline">Timeline</a>
