@@ -5,6 +5,7 @@ import AboutMe from './components/AboutMe'
 import Introduction from './components/Introduction'
 import Timeline from './components/Timeline'
 import Resume from './components/Resume'
+import Sidebar from './components/Sidebar'
 
 
 ReactDOM.render(
@@ -13,6 +14,7 @@ ReactDOM.render(
     <Introduction/>
     <Timeline/>
     <Resume/>
+    <Sidebar/>
 
   
   </React.StrictMode>,
