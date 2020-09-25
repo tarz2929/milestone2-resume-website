@@ -46,6 +46,69 @@ code {
 }
 
 
+/* Styling for resume */
+
+body {
+  margin: 0px;
+  background-color: #ffffff;
+  font-family: "C540", serif;
+  color: #000000;
+  font-size: larger;
+}
+
+h1, h2 {
+  padding-left: 30px;
+}
+
+
+.content {
+  background-color: #fafafa;
+  max-width: 800px;
+  margin: 0px auto;
+  padding: 50px 100px 50px 50px;
+  border: 1px solid #efefef;
+}
+
+.summary, .position, .education, p {
+  margin-bottom: 25px;
+  margin-left: -40px;
+  padding-left: 70px;
+}
+
+.summary {
+  border-top: 2px solid #800080;
+}
+
+.position {
+  border-top: 2px solid #ff0000;
+}
+
+.education {
+  border-top: 2px solid #008000;
+}
+
+.title {
+  display: block;
+  margin-top: -10px;
+  margin-left: -10px;
+  padding-left: 10px;
+  background-color: #fafafa;
+}
+
+.degree {
+  display: block;
+  font-style: italic;
+}
+
+.time-period {
+  display: block;
+  font-size: smaller;
+  color: #999;
+} 
+
+
+
+
 
 
 
