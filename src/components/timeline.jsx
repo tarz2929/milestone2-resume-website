@@ -20,7 +20,7 @@ function Timeline() {
                                 <p>Lorem ipsum..</p>
                             </div>
                         </div>
-                        <div class="container right">
+                        <div class="container left">
                             <div class="content">
                                 <h2>Primary and Higher Education</h2>
                                 <p>Lorem ipsum..</p>
