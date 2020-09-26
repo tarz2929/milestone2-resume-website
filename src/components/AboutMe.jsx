@@ -7,6 +7,8 @@ function AboutMe(){
         <div className="content">
 
             <h2> Who am I? </h2>
+
+            
           
           <p>Born in Hyderabad, India.</p>
           <p>Enthusiastic professional with a solution seeking mindset towards any problem. Aspiring to start a new career
