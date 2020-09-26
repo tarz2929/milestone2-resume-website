@@ -19,14 +19,14 @@ code {
 
 .sidenav {
   height: 100%;
-  width: 160px;
+  width: 200px;
   position: fixed;
   z-index: 1;
   top: 0;
   left: 0;
-  background-color: #111;
+  background-color: #f2f3f7;
   overflow-x: hidden;
-  padding-top: 20px;
+  padding-top: 10px;
 }
 
 .sidenav a {
@@ -42,13 +42,27 @@ code {
 }
 
 .email {
-  color: antiquewhite;
+  color: #FF9F55 ;
+
+}
+
+.grid-container {
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+  grid-gap: 2px;
+  background-color: #FF9F55;
+  padding: 10px;
+}
+
+.grid-container > div {
+  background-color: rgba(255, 255, 255, 0.8);
+  text-align: center;
+  padding: 20px 0;
+  font-size: 30px;
 }
 
 
-{
-  box-sizing: border-box;
-}
+
 
 /* Set a background color */
 body {
@@ -248,9 +262,7 @@ h1, h2 {
 
 
 
-.desktop-screen-only {
-  display: none;
-}
+
 
 
 /*
@@ -274,9 +286,7 @@ h1, h2 {
     Styles - CSS Classes & IDs
   */
 
-  .desktop-screen-only {
-    display: inline-block;
-  }
+  
 
 }
 
