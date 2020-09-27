@@ -16,8 +16,8 @@ import 'font-awesome/css/fontawesome.min.css';
 
 ReactDOM.render(
   <React.StrictMode>
-    <AboutMe/>
     <Introduction/>
+    <AboutMe/>
     <Timeline/>
     <Resume/>
     <Sidebar/>

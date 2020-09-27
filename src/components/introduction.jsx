@@ -4,18 +4,16 @@ import React from 'react';
 //Declare Function
 function Introduction() {
     return (
-        <>
-            <div>
-                <section >
-                       
-                        <h1>Hi! <br />I'm Tarun</h1>
-                        <p><a className="btn " href="https://drive.google.com/file/d/1JeOC8VhevFAM3zdKJ0wX9yNh2E2wVEw7/view?usp=sharing" target="_blank" rel="noopener noreferrer">View CV<i className="icon-download4" /></a></p>
-                    
+
+                       <section className="techimage homesec"><div className="container">
+                           <div className="myname">
+                        <h1>Hi! <br />I'm <span>Tarun</span></h1>
+                        <p><a className="btn custbutton" href="https://drive.google.com/file/d/1JeOC8VhevFAM3zdKJ0wX9yNh2E2wVEw7/view?usp=sharing" target="_blank" rel="noopener noreferrer">View CV</a></p>
+                        </div></div>
+                    </section>
 
 
-                </section>
-            </div>
-        </>
+              
     );
 }
 //Export Function
