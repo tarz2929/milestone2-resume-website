@@ -4,33 +4,44 @@ import React from 'react';
 //Declare Function
 function Timeline() {
     return (
-        <>
-            <main>
-                <section className="main-section">
-                    <div class="timeline">
-                        <div class="container left">
-                            <div class="content">
-                                <h2>Work Experience</h2>
-                                <p>Lorem ipsum..</p>
-                            </div>
-                        </div>
-                        <div class="container right">
-                            <div class="content">
-                                <h2>Undergrad</h2>
-                                <p>Lorem ipsum..</p>
-                            </div>
-                        </div>
-                        <div class="container left">
-                            <div class="content">
-                                <h2>Primary and Higher Education</h2>
-                                <p>Lorem ipsum..</p>
-                            </div>
-                        </div>
-                    </div>
+        <section id="Timeline">
+        <div class="container">
+            <h2 className="centertitle">Career Highlights</h2>
+        
+        <div class="row">
+          <div class="col-md-6 col-sm-12  text-left mytimeline mytimeline1">
+           <h3>Project Management</h3>
+           <p>Lorem Ipsum DUmmy Text Lorem Ipsum DUmmy Text Lorem Ipsum DUmmy Text
+            </p>
+           </div>
+           <div class="col-md-6 col-sm-12  text-left"></div>
+        </div>
+        
+        <div class="row">
+        <div class="col-md-6 col-sm-12  text-left"></div>
+          <div class="col-md-6 col-sm-12  text-left mytimeline mytimeline2">
+           <h3>Project Management</h3>
+           <p>Lorem Ipsum DUmmy Text Lorem Ipsum DUmmy Text Lorem Ipsum DUmmy Text
+            </p>
+           </div>
+           
+        </div>
+        
+        <div class="row">
+          <div class="col-md-6 col-sm-12  text-left mytimeline mytimeline3">
+           <h3>Project Management</h3>
+           <p>Lorem Ipsum DUmmy Text Lorem Ipsum DUmmy Text Lorem Ipsum DUmmy Text
+            </p>
+           </div>
+           <div class="col-md-6 col-sm-12  text-left"></div>
+        </div>
+        
+       
+        
+        
 
-                </section>
-            </main>
-        </>
+        </div>
+</section>
     );
 }
 //Export Function

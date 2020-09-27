@@ -291,6 +291,52 @@ p{margin-bottom:10px !important;}
   transition: 0.2s all ease-in;
   background: #9e0a0c;
 }
+.centertitle{
+  color:#9e0a0c;
+  font-size:25px;
+  line-height: 30px;
+  text-align: center;
+  font-weight: 600;
+  text-decoration: underline;
+  margin-bottom:50px;
+}
+.mytimeline{
+   padding:30px 50px;
+  border-radius:15px;
+}
+.mytimeline1{
+  background: #9e0a0c;
+
+}
+.mytimeline2{
+  background: #0a9e89;
+
+}
+.mytimeline3{
+  background: #9e4f0a;
+
+}
+
+.mytimeline h3{
+  text-align: left;
+  color:#fff;
+  font-size:20px;
+  font-weight:600;
+  line-height:30px;
+  margin:auto !important;
+  padding-right:20px !important;
+  padding-left:20px !important;
+    }
+ .mytimeline p{
+      font-size:16px;
+      font-weight:normal;
+      color:#fff;
+      text-align: left;
+            margin-left:0px !important;
+            padding-left:20px !important;
+            padding-right:20px !important;
+      margin-bottom: 30px;
+        }
 .myabilities h3{
   text-align: center;
   font-size:20px;
@@ -362,6 +408,7 @@ p{margin-bottom:10px !important;}
                 }
                 section{
                   padding-bottom:50px;
+                  padding-top:64px !important;
                 }
 .techimage{
   background:url('https://img.pngio.com/symbiontio-technology-line-png-1500_873.png');
@@ -372,6 +419,33 @@ p{margin-bottom:10px !important;}
 .homesec{
   min-height:500px;
 }
+
+.tarunnav  {
+  width:100%;
+  margin:auto;
+  text-align: center;
+  border-bottom:1px solid #eaeaea;
+  position: fixed;
+  background:#fff;
+  z-index: 999;
+  
+}
+.tarunnav ul li  {
+  margin-top: 40px !important;
+  margin-left: 30px;
+  margin-right: 30px;
+  text-align: center;
+  padding: 20px 0px;
+      }
+      .tarunnav ul li a  {
+        
+        
+        margin-left:30px;
+        margin-right:30px;
+        text-align: center;
+        color:#9e0a0c;
+        font-weight:600
+            }
 
 
 
@@ -405,15 +479,13 @@ p{margin-bottom:10px !important;}
         margin-left:0px !important;
         padding-left:0px !important;
           }
-            
-
+    
 
 
   /*
     Styles - CSS Classes & IDs
   */
-
-  
+ 
 
 }
 

@@ -2,7 +2,7 @@ import React from 'react';
 
 function AboutMe() {
   return (
-    <section><div className="container">
+    <section id="About"><div className="container">
       <div className="mybio">
       <h2> Who am I? </h2>
       <p>Born in Hyderabad, India.</p>

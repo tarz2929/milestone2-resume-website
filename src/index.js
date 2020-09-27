@@ -16,11 +16,12 @@ import 'font-awesome/css/fontawesome.min.css';
 
 ReactDOM.render(
   <React.StrictMode>
+    <Sidebar/>
     <Introduction/>
     <AboutMe/>
     <Timeline/>
     <Resume/>
-    <Sidebar/>
+    
 
   
   </React.StrictMode>,
