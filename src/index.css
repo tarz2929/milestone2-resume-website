@@ -213,16 +213,17 @@ h1, h2 {
 
 .content {
   background-color: #fafafa;
-  max-width: 800px;
+  /* max-width: 800px; */
   margin: 0px auto;
-  padding: 50px 100px 50px 50px;
+  width:100%;
+ padding: 50px 20px 50px 20px; 
   border: 1px solid #efefef;
 }
 
 .summary, .position, .education, p {
-  margin-bottom: 25px;
+  /* margin-bottom: 25px;
   margin-left: -40px;
-  padding-left: 70px;
+  padding-left: 70px; */
 }
 
 .summary {
@@ -255,7 +256,25 @@ h1, h2 {
   font-size: smaller;
   color: #999;
 } 
-
+.ability-image{
+  width:100%;
+  max-width:100px;
+  margin-bottom:25px;
+  text-align:left;
+}
+.myabilities h3{
+  font-size:20px;
+  font-weight:600;
+  line-height:30px;
+    }
+ .myabilities p{
+      font-size:16px;
+      font-weight:normal;
+      margin-bottom:20px;
+      margin-left:0px !important;
+      padding-left:0px !important;
+        }
+          
 
 
 
@@ -280,6 +299,20 @@ h1, h2 {
     margin-left: auto;
     margin-right: auto;
   }
+  .myabilities h3{
+    font-size:20px;
+    font-weight:600;
+    line-height:30px;
+      }
+   .myabilities p{
+        font-size:16px;
+        font-weight:normal;
+        margin-bottom:20px;
+        margin-left:0px !important;
+        padding-left:0px !important;
+          }
+            
+
 
 
   /*
