@@ -301,8 +301,11 @@ p{margin-bottom:10px !important;}
   margin-bottom:50px;
 }
 .mytimeline{
-   padding:30px 50px;
+   padding:30px 20px;
   border-radius:15px;
+  margin-bottom:20px;
+  margin-right:10px;
+  margin-left:10px;
 }
 .mytimeline1{
   background: #9e0a0c;

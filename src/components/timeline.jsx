@@ -9,29 +9,35 @@ function Timeline() {
             <h2 className="centertitle">Career Highlights</h2>
         
         <div class="row">
-          <div class="col-md-6 col-sm-12  text-left mytimeline mytimeline1">
+          <div class="col-md-6 col-sm-12  text-left ">
+          <div class="mytimeline mytimeline1">
            <h3>Project Management</h3>
            <p>Lorem Ipsum DUmmy Text Lorem Ipsum DUmmy Text Lorem Ipsum DUmmy Text
             </p>
+            </div>
            </div>
            <div class="col-md-6 col-sm-12  text-left"></div>
         </div>
         
         <div class="row">
         <div class="col-md-6 col-sm-12  text-left"></div>
-          <div class="col-md-6 col-sm-12  text-left mytimeline mytimeline2">
+          <div class="col-md-6 col-sm-12  text-left ">
+              <div class="mytimeline mytimeline2">
            <h3>Project Management</h3>
            <p>Lorem Ipsum DUmmy Text Lorem Ipsum DUmmy Text Lorem Ipsum DUmmy Text
             </p>
+            </div>
            </div>
            
         </div>
         
         <div class="row">
-          <div class="col-md-6 col-sm-12  text-left mytimeline mytimeline3">
+          <div class="col-md-6 col-sm-12  text-left">
+          <div class="mytimeline mytimeline3">
            <h3>Project Management</h3>
            <p>Lorem Ipsum DUmmy Text Lorem Ipsum DUmmy Text Lorem Ipsum DUmmy Text
             </p>
+           </div>
            </div>
            <div class="col-md-6 col-sm-12  text-left"></div>
         </div>
