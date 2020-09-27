@@ -11,7 +11,7 @@ function Timeline() {
         <div class="row">
           <div class="col-md-6 col-sm-12  text-left ">
           <div class="mytimeline mytimeline1">
-           <h3>Project Management</h3>
+           <h3>Work Experience</h3>
            <p>Lorem Ipsum DUmmy Text Lorem Ipsum DUmmy Text Lorem Ipsum DUmmy Text
             </p>
             </div>
@@ -23,7 +23,7 @@ function Timeline() {
         <div class="col-md-6 col-sm-12  text-left"></div>
           <div class="col-md-6 col-sm-12  text-left ">
               <div class="mytimeline mytimeline2">
-           <h3>Project Management</h3>
+           <h3>Undergrad</h3>
            <p>Lorem Ipsum DUmmy Text Lorem Ipsum DUmmy Text Lorem Ipsum DUmmy Text
             </p>
             </div>
@@ -34,7 +34,7 @@ function Timeline() {
         <div class="row">
           <div class="col-md-6 col-sm-12  text-left">
           <div class="mytimeline mytimeline3">
-           <h3>Project Management</h3>
+           <h3>Primary and Higher Education</h3>
            <p>Lorem Ipsum DUmmy Text Lorem Ipsum DUmmy Text Lorem Ipsum DUmmy Text
             </p>
            </div>

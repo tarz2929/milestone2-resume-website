@@ -3,20 +3,15 @@ import React from 'react';
 
 //Declare Function
 function Resume() {
-    return(
-        <>
-            <div>
-        <meta charSet="UTF-8" />
-        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        <title>Resume Website</title>
-        {/* Style(s) */}
-        <link rel="stylesheet" type="text/css" href="css/resume.css" />
-        <div className="content">
-          <h1>Tarun Mulle</h1>	
+  return (
+  
+      <section id="Resume">
+        <div className="container">
+      
+      <div class="row">
+      <div class="col-md-12 myresume">
+           <h1>Tarun Mulle</h1>
           <h2>Professional Summary</h2>
-          <div className="summary">
-            <span className="title">
-            </span>
             <p>
               Strong interpersonal and conflict resolution skills developed through dealing with clients, from
               various
@@ -26,7 +21,7 @@ function Resume() {
               coordinating and creating positive relationships with all
               co-workers.
             </p>
-          </div>
+
           <h2> Professional Experience</h2>
           <div className="position">
             <span className="title"> Project Coordinator - Midwest Structural</span>
@@ -34,12 +29,12 @@ function Resume() {
           </div>
           <ul>
             <li>Provide technical and operational direction and project management principles to the planning, design
-              and
+            and
               operation of rehabilitative and inspection projects.</li>
             <li>Assist with major construction projects, including liaison with Owners, Consulting Engineers and
               Subcontractors.</li>
             <li>Ensure project meets budget and timelines by reviewing work requirements, schedules, and cost reports on
-              a
+            a
               continuous basis and participate in project reviews and forecasting. </li>
             <li>Attend pre-bid, pre-construction and project status meetings with customers as needed. </li>
             <li>Review and process shop drawings and Coordination of material and equipment needs.</li>
@@ -65,12 +60,12 @@ function Resume() {
           </div>
           <ul>
             <li>Provide a high level of customer service by assisting customers and assessing their rental needs in
-              person
+            person
               and/or by phone.</li>
             <li>Conduct follow-up meetings with various businesses and customers, including insurance adjusters or
-              agents,
-              dealerships, auto body shops to scale business and to obtain appropriate information regarding the
-              status
+            agents,
+            dealerships, auto body shops to scale business and to obtain appropriate information regarding the
+            status
               and availability of rentals and customers’ vehicles. </li>
             <li>Assist in Branch sales and marketing efforts to increase business income.</li>
             <li>Successfully took part in various marketing initiatives in the local area which helped increase business
@@ -99,13 +94,18 @@ function Resume() {
             <span className="title"> Jawaharlal Nehru Institute of Technology</span>
             <span className="degree">Bachelor of Technology </span>
             <span className="time-period">August 2008 - April 2012</span>
-          </div>		
-        </div>
-      </div>
+          </div>
     
- 
-        </>
-    );
+      
+      </div>
+</div>
+      </div>
+
+      </section>
+
+
+   
+  );
 }
 //Export Function
 export default Resume;
