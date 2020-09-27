@@ -2,9 +2,9 @@ import React from 'react';
 
 function AboutMe() {
   return (
-    <>
-      <div>
-        <div className="content">
+    
+      
+        <div className="container">
 
           <h2> Who am I? </h2>
 
@@ -46,39 +46,8 @@ function AboutMe() {
           </div>
 
 
-          <div class="grid-container">
-            <div>
-              <div className="desc">
-                <h3>Project Management </h3>
-                <p>Experienced in handling mid-level construction projects and worked as a Project Coordiator and Assistant manager. </p>
-              </div>
-            </div>
-            <div><div className="desc">
-              <h3>Passions </h3>
-              <p>Yoga, biking and outdoor activities are some of my passions. </p>
-            </div></div>
-            <div><div className="desc">
-              <h3> Web Development and Cloud </h3>
-              <p>I have previously learnt and gained online experience in DevOps and AWS tools. I am currently learning web development using JavaScript,React, Redux, HTML and CSS. </p>
-            </div></div>
-
-          </div>
-
-
-
-
-
-
-
-
-
-
-
-
         </div>
 
-      </div>
-    </>
   );
 }
 export default AboutMe;
