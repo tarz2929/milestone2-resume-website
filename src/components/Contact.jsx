@@ -32,6 +32,13 @@ function ContactMe() {
     return (
 
         <section id="ContactMe"><div className="container">
+
+            <h2 className="centertitle">Contact Me</h2>
+
+            <div classname="ContactMebox">
+
+
+            
             <form onSubmit={onSubmit} action="mailto:mail@tarun.com" method="get" encType="text/plain">
                 <div>
                     <label htmlFor="name">Name:
@@ -67,6 +74,8 @@ function ContactMe() {
                     <input type="reset" name="reset" defaultValue="Clear Form" />
                 </div>
             </form>
+
+        </div>
 
         </div>
 
