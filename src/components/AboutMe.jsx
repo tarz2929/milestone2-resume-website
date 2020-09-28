@@ -25,17 +25,17 @@ function AboutMe() {
       <div className="container">
         <div className="row">
           <div className="col-md-4 col-sm-12 myabilities text-center">
-            <img className="ability-image" src="https://static.thenounproject.com/png/247206-200.png" />
+            <img className="ability-image" src="https://static.thenounproject.com/png/247206-200.png" alt ="" />
             <h3>Project Management</h3>
             <p>Experienced in handling mid-level construction projects and worked as a Project Coordiator and Assistant manager. </p>
           </div>
           <div className="col-md-4 col-sm-12 myabilities text-center">
-            <img className="ability-image" src="https://static.thenounproject.com/png/3329486-200.png" />
+            <img className="ability-image" src="https://static.thenounproject.com/png/3329486-200.png" alt ="" />
             <h3>To balance Work & Life </h3>
             <p>Yoga, biking, outdoor activities, cooking and family time. </p>
           </div>
           <div className="col-md-4 col-sm-12 myabilities text-center">
-            <img className="ability-image" src="https://static.thenounproject.com/png/1473691-200.png" />
+            <img className="ability-image" src="https://static.thenounproject.com/png/1473691-200.png" alt="" />
             <h3> Web Development and Cloud </h3>
             <p>Previously learnt and gained online experience in DevOps and AWS tools. I am currently learning web development using JavaScript, React, Redux, HTML and CSS. </p>
           </div>

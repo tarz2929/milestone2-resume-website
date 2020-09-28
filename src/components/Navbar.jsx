@@ -17,7 +17,9 @@ function Navbar() {
                <li className="nav-item"> <a href="#About">About</a></li>
                <li className="nav-item">  <a href="#Timeline">Timeline</a></li>
                <li className="nav-item">  <a href="#Resume">Resume</a></li>
-               <li className="nav-item"> <a href="#contact">Contact me</a></li>
+               <li className="nav-item"> <a href="#ContactMe">Contact me</a></li>
+              
+
         </ul>
         </div>
         </nav>
