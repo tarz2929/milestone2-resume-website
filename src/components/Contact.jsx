@@ -26,18 +26,25 @@ function ContactMe() {
                 </div>
                 <div>
                     <label htmlFor="email">Email:
-            <input type="text" name="email" id="email" />
+            <input onChange={(e) => {
+                            setEmail(e.target.value)
+                        }}
+                            type="text" name="email" id="email" />
                     </label>
                 </div>
                 <div>
                     <label htmlFor="subject">Subject:
-            <input type="text" name="subject" id="subject" />
+            <input onChange={(e) => {
+                            setSubject(e.target.value)
+                        }} type="text" name="subject" id="subject" />
                     </label>
                 </div>
                 <div>
                     <label>Comments:</label>
                     <br />
-                    <textarea name="comments" id="message" rows={12} cols={35} placeholder="Please send your message here." defaultValue={""} />
+                    <textarea onChange={(e) => {
+                            setComments(e.target.value)
+                        }} name="comments" id="message" rows={12} cols={35} placeholder="Please send your message here." defaultValue={""} />
                 </div>
                 <div>
                     <input type="submit" id="send-email" onclick="validateMeessage()" name="submit" defaultValue="Send" />
