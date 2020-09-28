@@ -37,7 +37,7 @@ function ContactMe() {
                     <label htmlFor="name">Name:
             <input onChange={(e) => {
                             setName(e.target.value)
-                        }} type="text" name="name" id="name" />
+                        }} type="text" name="name" id="name" required />
                     </label>
                 </div>
                 <div>
@@ -45,14 +45,14 @@ function ContactMe() {
             <input onChange={(e) => {
                             setEmail(e.target.value)
                         }}
-                            type="text" name="email" id="email" />
+                            type="text" name="email" id="email" required />
                     </label>
                 </div>
                 <div>
                     <label htmlFor="subject">Subject:
             <input onChange={(e) => {
                             setSubject(e.target.value)
-                        }} type="text" name="subject" id="subject" />
+                        }} type="text" name="subject" id="subject" required />
                     </label>
                 </div>
                 <div>
@@ -60,10 +60,10 @@ function ContactMe() {
                     <br />
                     <textarea onChange={(e) => {
                         setComments(e.target.value)
-                    }} name="comments" id="message" rows={12} cols={35} placeholder="Please send your message here." defaultValue={""} />
+                    }} name="comments" id="message" rows={12} cols={35} placeholder="Please send your message here." defaultValue={""} required />
                 </div>
                 <div>
-                    <input type="submit" id="send-email"  name="submit" defaultValue="Send" />
+                    <input type="submit" id="send-email" name="submit" defaultValue="Send" />
                     <input type="reset" name="reset" defaultValue="Clear Form" />
                 </div>
             </form>
