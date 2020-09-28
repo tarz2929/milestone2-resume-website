@@ -21,20 +21,20 @@ function AboutMe() {
       <span className="heading-meta">What I do?</span>
       <h2 className="about-heading">Here are some of my expertise</h2>
 </div>
-      <div class="container">
-        <div class="row">
-          <div class="col-md-4 col-sm-12 myabilities text-center">
-            <img class="ability-image" src="https://static.thenounproject.com/png/247206-200.png" />
+      <div className="container">
+        <div className="row">
+          <div className="col-md-4 col-sm-12 myabilities text-center">
+            <img className="ability-image" src="https://static.thenounproject.com/png/247206-200.png" />
             <h3>Project Management</h3>
             <p>Experienced in handling mid-level construction projects and worked as a Project Coordiator and Assistant manager. </p>
           </div>
-          <div class="col-md-4 col-sm-12 myabilities text-center">
-            <img class="ability-image" src="https://static.thenounproject.com/png/247206-200.png" />
+          <div className="col-md-4 col-sm-12 myabilities text-center">
+            <img className="ability-image" src="https://static.thenounproject.com/png/247206-200.png" />
             <h3>Passions </h3>
             <p>Yoga, biking and outdoor activities are some of my passions. </p>
           </div>
-          <div class="col-md-4 col-sm-12 myabilities text-center">
-            <img class="ability-image" src="https://static.thenounproject.com/png/247206-200.png" />
+          <div className="col-md-4 col-sm-12 myabilities text-center">
+            <img className="ability-image" src="https://images.app.goo.gl/P3sYxkDn4znfKNGYA" />
             <h3> Web Development and Cloud </h3>
             <p>I have previously learnt and gained online experience in DevOps and AWS tools. I am currently learning web development using JavaScript,React, Redux, HTML and CSS. </p>
           </div>

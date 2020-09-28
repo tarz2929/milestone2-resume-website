@@ -2,7 +2,7 @@
 import React from 'react';
 
 //Declare Function
-function Sidebar() {
+function Navbar() {
     return (
         <nav className="navbar navbar-expand-lg navbar-light bg-light">
   
@@ -25,4 +25,4 @@ function Sidebar() {
     );
 }
 //Export Function
-export default Sidebar;
+export default Navbar;

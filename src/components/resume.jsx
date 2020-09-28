@@ -8,8 +8,8 @@ function Resume() {
       <section id="Resume">
         <div className="container">
       
-      <div class="row">
-      <div class="col-md-12 myresume">
+      <div className="row">
+      <div className="col-md-12 myresume">
            <h1>Tarun Mulle</h1>
           <h2>Professional Summary</h2>
             <p>
