@@ -4,6 +4,9 @@ import React, {useState} from 'react';
 
 function ContactMe() {
     const [name,setName] = useState("")
+    const [email, setEmail] = useState("")
+    const [subject, setSubject] = useState("")
+    const [comments, setComments] =useState("")
 
 
     return (
