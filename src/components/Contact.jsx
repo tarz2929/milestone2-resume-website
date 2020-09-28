@@ -1,14 +1,15 @@
-import React, {useState} from 'react';
+import React, { useState } from 'react';
 
 
 
 function ContactMe() {
-    const [name,setName] = useState("")
+    const [name, setName] = useState("")
     const [email, setEmail] = useState("")
     const [subject, setSubject] = useState("")
-    const [comments, setComments] =useState("")
-    const onSubmit = () =>{
-        
+    const [comments, setComments] = useState("")
+    const onSubmit = () => {
+
+
     }
 
 
@@ -18,7 +19,9 @@ function ContactMe() {
             <form onSubmit={onSubmit} action="mailto:mail@tarun.com" method="get" encType="text/plain">
                 <div>
                     <label htmlFor="name">Name:
-            <input type="text" name="name" id="name" />
+            <input onChange={(e) => {
+                            setName(e.target.value)
+                        }} type="text" name="name" id="name" />
                     </label>
                 </div>
                 <div>
@@ -33,7 +36,7 @@ function ContactMe() {
                 </div>
                 <div>
                     <label>Comments:</label>
-                    <br />                    
+                    <br />
                     <textarea name="comments" id="message" rows={12} cols={35} placeholder="Please send your message here." defaultValue={""} />
                 </div>
                 <div>
