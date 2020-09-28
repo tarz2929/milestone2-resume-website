@@ -8,6 +8,22 @@ function ContactMe() {
     const [subject, setSubject] = useState("")
     const [comments, setComments] = useState("")
     const onSubmit = () => {
+        console.log(name, email, subject, comments)
+        const swearWords = ["feldercarb", "frack", "skinjob", "vulgacarb"]
+        let falseMessage = false
+        for (let i = 0; i < swearWords.length; i++) {
+            if (comments.toLowerCase().indexOf(swearWords[i]) !== -1) {
+                falseMessage = true;
+                break;
+            }
+        }
+        console.log(falseMessage)
+        if (falseMessage) {
+            alert("We have zero tolerance for unprofessional language.");
+        } else {
+            window.location.href = 'mailto:mail@tarun.com?subject=' + name + subject + ' (' + email + ')' + '&body=' + comments;
+        }
+
 
 
     }
@@ -43,11 +59,11 @@ function ContactMe() {
                     <label>Comments:</label>
                     <br />
                     <textarea onChange={(e) => {
-                            setComments(e.target.value)
-                        }} name="comments" id="message" rows={12} cols={35} placeholder="Please send your message here." defaultValue={""} />
+                        setComments(e.target.value)
+                    }} name="comments" id="message" rows={12} cols={35} placeholder="Please send your message here." defaultValue={""} />
                 </div>
                 <div>
-                    <input type="submit" id="send-email" onclick="validateMeessage()" name="submit" defaultValue="Send" />
+                    <input type="submit" id="send-email"  name="submit" defaultValue="Send" />
                     <input type="reset" name="reset" defaultValue="Clear Form" />
                 </div>
             </form>
