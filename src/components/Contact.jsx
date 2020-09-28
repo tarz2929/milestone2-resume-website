@@ -11,7 +11,7 @@ function ContactMe() {
 
     return (
 
-        <section id="ContactMe "><div className="container">
+        <section id="ContactMe"><div className="container">
             <form action="mailto:mail@tarun.com" method="get" encType="text/plain">
                 <div>
                     <label htmlFor="name">Name:
