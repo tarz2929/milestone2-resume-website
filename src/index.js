@@ -10,7 +10,7 @@ import Navbar from './components/Navbar';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import 'font-awesome/css/fontawesome.css';
 import 'font-awesome/css/fontawesome.min.css';
-import ContactMe from './components/Contact';
+import Contact from './components/Contact';
 
 
 
@@ -22,7 +22,7 @@ ReactDOM.render(
     <AboutMe/>
     <Timeline/>
     <Resume/>
-    <ContactMe/>
+    <Contact/>
     
 
   
