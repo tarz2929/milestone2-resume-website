@@ -35,52 +35,52 @@ function ContactMe() {
 
             <h2 className="centertitle">Contact Me</h2>
 
-            <div classname="ContactMebox">
+            <div className="ContactMebox">
 
 
-            
-            <form onSubmit={onSubmit} action="mailto:mail@tarun.com" method="get" encType="text/plain">
-                <div>
-                    <label htmlFor="name">Name:
+
+                <form onSubmit={onSubmit} action="mailto:mail@tarun.com" method="get" encType="text/plain">
+                    <div>
+                        <label htmlFor="name">Name:
             <input onChange={(e) => {
-                            setName(e.target.value)
-                        }} type="text" name="name" id="name" required />
-                    </label>
-                </div>
-                <div>
-                    <label htmlFor="email">Email:
+                                setName(e.target.value)
+                            }} type="text" name="name" id="name" required />
+                        </label>
+                    </div>
+                    <div>
+                        <label htmlFor="email">Email:
             <input onChange={(e) => {
-                            setEmail(e.target.value)
-                        }}
-                            type="text" name="email" id="email" required />
-                    </label>
-                </div>
-                <div>
-                    <label htmlFor="subject">Subject:
+                                setEmail(e.target.value)
+                            }}
+                                type="text" name="email" id="email" required />
+                        </label>
+                    </div>
+                    <div>
+                        <label htmlFor="subject">Subject:
             <input onChange={(e) => {
-                            setSubject(e.target.value)
-                        }} type="text" name="subject" id="subject" required />
-                    </label>
-                </div>
-                <div>
-                    <label>Comments:</label>
-                    <br />
-                    <textarea onChange={(e) => {
-                        setComments(e.target.value)
-                    }} name="comments" id="message" rows={12} cols={35} placeholder="Please send your message here." defaultValue={""} required />
-                </div>
-                <div>
-                    <input type="submit" id="send-email" name="submit" defaultValue="Send" />
-                    <input type="reset" name="reset" defaultValue="Clear Form" />
-                </div>
-            </form>
-            
-            <footer>&copy; Copyright 2020 Tarun</footer>
+                                setSubject(e.target.value)
+                            }} type="text" name="subject" id="subject" required />
+                        </label>
+                    </div>
+                    <div>
+                        <label>Comments:</label>
+                        <br />
+                        <textarea onChange={(e) => {
+                            setComments(e.target.value)
+                        }} name="comments" id="message" rows={12} cols={35} placeholder="Please send your message here." defaultValue={""} required />
+                    </div>
+                    <div>
+                        <input type="submit" id="send-email" name="submit" defaultValue="Send" />
+                        <input type="reset" name="reset" defaultValue="Clear Form" />
+                    </div>
+                </form>
+
+                <footer>&copy; Copyright 2020 Tarun</footer>
 
 
-            
 
-        </div>
+
+            </div>
 
         </div>
 

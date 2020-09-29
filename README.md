@@ -35,6 +35,8 @@ https://reactjs.org/docs/forms.html
 > Work Life Balance icon used from Static Noun Project and created by By tulpahn, TH
 > Cloud computing services icon used from Static Noun Project and created by Pause08, TH 
 > GitHub logo used from https://github.com/logos
+> Homepage image used from https://pngio.com/png
+(All images were used for School Project purposes only)
 
 
 
