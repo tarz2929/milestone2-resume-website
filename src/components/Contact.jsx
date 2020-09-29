@@ -74,6 +74,11 @@ function ContactMe() {
                     <input type="reset" name="reset" defaultValue="Clear Form" />
                 </div>
             </form>
+            
+            <footer>&copy; Copyright 2020 Tarun</footer>
+
+
+            
 
         </div>
 
